@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 		<meta charset="utf-8" />
+ 		<title>
+			TP GIT
+		</title>
+		<link rel="stylesheet" href="agrandirCSS.css"/>
+
+ 	</head>
+
+	 	
+	<body>
+		<!-- Header de la page + Menu -->
+		
+		<main>
+            <h1>GALERIE</h1>
+			<!-- Partie 1 -->
+			<section id="partie1">
+				<p class="picture"><img src="Galerie/logo-hetic.png" onclick="openModal('Galerie/logo-hetic.png')" width="200px"/></p>
+                <p class="picture>"><img src="Galerie/photo1.jpg" onclick="openModal('Galerie/photo1.jpg')" width="200px" /></p>
+                <p class="picture"><img src="Galerie/photo2.jpg" onclick="openModal('Galerie/photo2.jpg')" width="200px" /></p>
+                <p class="picture"><img src="Galerie/1196190b-4d87-422b-9dc9-3f0bcc910674.jpg" onclick="openModal('Galerie/1196190b-4d87-422b-9dc9-3f0bcc910674.jpg')" width="200px" /></p>
+                <p class="picture"><img src="Galerie/2a417e42-e420-4615-879f-fbc0cea127e1.jpg" onclick="openModal('Galerie/2a417e42-e420-4615-879f-fbc0cea127e1.jpg')" width="200px" /></p>
+                <p class="picture"><img src="Galerie/3504bb7d-5005-448f-9333-ee07c1146b40.jpg" onclick="openModal('Galerie/3504bb7d-5005-448f-9333-ee07c1146b40.jpg')"width="200px" /></p>
+			</section>
+
+		</main>
+        <div class="modal" id="myModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImg">
+        </div>
+    
+        <script src="afficher.js"></script>
+
+		<!-- Footer -->
+		<footer>
+			<p>2022 ©GG. Tout droit reservé.</p>
+		</footer>
+	 </body>
+</html>
